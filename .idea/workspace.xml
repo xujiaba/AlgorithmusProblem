@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem/QuickSortCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem.java" afterDir="false" />
     </list>
@@ -45,6 +44,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="QuickSortCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem.QuickSortCode" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSortCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566030605987</updated>
-      <workItem from="1566030609798" duration="2725000" />
+      <workItem from="1566030609798" duration="5059000" />
     </task>
     <servers />
   </component>
