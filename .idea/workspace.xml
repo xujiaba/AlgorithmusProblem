@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRU.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566030605987</updated>
       <workItem from="1566030609798" duration="5760000" />
-      <workItem from="1566041214682" duration="6603000" />
+      <workItem from="1566041214682" duration="7261000" />
+      <workItem from="1566089051666" duration="1300000" />
     </task>
     <servers />
   </component>
