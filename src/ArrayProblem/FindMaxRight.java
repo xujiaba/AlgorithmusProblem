@@ -1,9 +1,8 @@
+package ArrayProblem;
+
 import java.util.Stack;
 
-
-public class ArrayProblem {
-
-
+public class FindMaxRight {
     // 找出数组中每个数右边第一个比它大的元素
     //  1、暴力遍历
     //我们很容易想到复杂度为O(n^2)的解法，遍历数组中的每一个后面所有元素，找到第一个大于它的，输出即可。
@@ -61,33 +60,4 @@ public class ArrayProblem {
         }
         return result;
     }
-
-    //LeetCode 1013 将数组分成和相等的三个部分
-//    给定一个整数数组 A，只有我们可以将其划分为三个和相等的非空部分时才返回 true，否则返回 false。
-//
-//形式上，如果我们可以找出索引 i+1 < j 且满足 
-// (A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1]) 就可以将数组三等分。
-
-
-    public boolean canThreePartsEqualSum(int[] A) {
-        int sum = 0;
-        for (int a : A) {
-            sum += a;
-        }
-        int key = sum / 3;
-        int temp = 0;
-        for (int i = 0; i < A.length; i++) {
-            key -= A[i];
-            if (key == 0) {
-                temp++;
-                key = sum / 3;
-            }
-        }
-        if (temp == 3) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
 }
