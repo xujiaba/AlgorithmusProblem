@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class StringAllPermutation {
-    public ArrayList<String> permutation(String str) {
+    // 字符串全排列，可能有重复的
+    public static ArrayList<String> permutation(String str) {
         ArrayList<String> ans = new ArrayList<>();//所有排列的可能都在这里
         if (str != null || str.length() > 0) {
             permutationProcess(ans, str.toCharArray(), 0);
@@ -26,7 +27,6 @@ public class StringAllPermutation {
                 swap(chars, index, j);//恢复原来的模样，回溯关键
             }
         }
-
     }
 
     public static void swap(char[] cha, int i, int j) {

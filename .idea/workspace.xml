@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SpinLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TASLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <updated>1566030605987</updated>
       <workItem from="1566030609798" duration="5760000" />
       <workItem from="1566041214682" duration="7261000" />
-      <workItem from="1566089051666" duration="8132000" />
+      <workItem from="1566089051666" duration="8567000" />
     </task>
     <servers />
   </component>
