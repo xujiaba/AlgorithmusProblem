@@ -21,13 +21,13 @@ public class ReverseList_92 {
         ListNode node2 = node1.next;
         node1.next = tPos;
         ListNode next = null;
-        while (node2 != tPos){
+        while (node2 != tPos) {
             next = node2.next;
             node2.next = node1;
             node1 = node2;
             node2 = next;
         }
-        if (fPre != null){
+        if (fPre != null) {
             fPre.next = node1;
             return head;
         }

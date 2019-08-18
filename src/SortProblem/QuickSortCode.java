@@ -12,7 +12,7 @@ public class QuickSortCode {
     }
 
     public static void quickSort(int[] arr, int L, int R) {
-        if (L < R){  // 重要！！！！！！
+        if (L < R) {  // 重要！！！！！！
             swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
             int[] p = partition(arr, L, R);
             quickSort(arr, L, p[0] - 1);
@@ -33,7 +33,7 @@ public class QuickSortCode {
             }
         }
         swap(arr, more, R);
-        return new int[]{ less + 1, more};
+        return new int[]{less + 1, more};
     }
 
     public static void swap(int[] arr, int i, int j) {

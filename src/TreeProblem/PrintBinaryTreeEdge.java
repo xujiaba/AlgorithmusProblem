@@ -33,20 +33,20 @@ public class PrintBinaryTreeEdge {
     public void setEdgeMap(TreeNode node, int h, TreeNode[][] edgeMap) {
         if (node == null)
             return;
-        edgeMap[h][0] = edgeMap[h][0] == null ? node:edgeMap[h][0];
+        edgeMap[h][0] = edgeMap[h][0] == null ? node : edgeMap[h][0];
         edgeMap[h][1] = node;
-        setEdgeMap(node.left, h+1, edgeMap);
-        setEdgeMap(node.right, h+1, edgeMap);
+        setEdgeMap(node.left, h + 1, edgeMap);
+        setEdgeMap(node.right, h + 1, edgeMap);
     }
 
     public void printLeafNotInMap(TreeNode node, int h, TreeNode[][] edgeMap) {
         if (node == null)
             return;
-        if (node.left == null && node.right == null && node != edgeMap[h][0] && node != edgeMap[h][1]){
+        if (node.left == null && node.right == null && node != edgeMap[h][0] && node != edgeMap[h][1]) {
             System.out.print(node.val + " ");
         }
-        printLeafNotInMap(node.left, h+1, edgeMap);
-        printLeafNotInMap(node.right, h+1, edgeMap);
+        printLeafNotInMap(node.left, h + 1, edgeMap);
+        printLeafNotInMap(node.right, h + 1, edgeMap);
     }
 
 }
