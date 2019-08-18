@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ListProblem/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListProblem/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputeArea_223.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/DecodeString_394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/MaxUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/CanThreePartsEqualsSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/CanThreePartsEqualsSum_1013.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListProblem/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProblem/ReverseList_92.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="QuickSortCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortProblem.QuickSortCode" />
       <module name="AlgorithmusProblem" />
@@ -58,8 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <module name="AlgorithmusProblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.QuickSortCode" />
       </list>
     </recent_temporary>
@@ -76,7 +90,7 @@
       <updated>1566030605987</updated>
       <workItem from="1566030609798" duration="5760000" />
       <workItem from="1566041214682" duration="7261000" />
-      <workItem from="1566089051666" duration="1300000" />
+      <workItem from="1566089051666" duration="5324000" />
     </task>
     <servers />
   </component>

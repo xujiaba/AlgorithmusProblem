@@ -1,6 +1,6 @@
 package ArrayProblem;
 
-public class CanThreePartsEqualsSum {
+public class CanThreePartsEqualsSum_1013 {
 
     //LeetCode 1013 将数组分成和相等的三个部分
 //    给定一个整数数组 A，只有我们可以将其划分为三个和相等的非空部分时才返回 true，否则返回 false。

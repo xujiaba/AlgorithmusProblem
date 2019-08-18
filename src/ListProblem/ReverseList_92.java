@@ -1,6 +1,6 @@
 package ListProblem;
 
-public class ReverseList {
+public class ReverseList_92 {
 
     //LeetCode 92 反转链表中的一段
     public ListNode reversePart(ListNode head, int from, int to) {

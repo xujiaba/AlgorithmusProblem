@@ -1,7 +1,6 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-
 // LRU全称是Least Recently Used，即最近最久未使用的意思。
 public class LRU<K,V> {
 
@@ -12,7 +11,7 @@ public class LRU<K,V> {
     public LRU(int cacheSize) {
         this.cacheSize = cacheSize;
         int capacity = (int)Math.ceil(cacheSize / hashLoadFactory) + 1; // ceil表示向上取整
-        map = new LinkedHashMap<K,V>(capacity, hashLoadFactory, true){ //基于访问排序
+        map = new LinkedHashMap<K,V>(capacity, hashLoadFactory, true){ //accessOrder为true的时候基于访问排序
             private static final long serialVersionUID = 1;
 
             @Override
