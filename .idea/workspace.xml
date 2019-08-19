@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUCache_146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/RemoveNthFromEnd_19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblem/MaxUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/MaxUnique_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -83,7 +88,9 @@
       <updated>1566030605987</updated>
       <workItem from="1566030609798" duration="5760000" />
       <workItem from="1566041214682" duration="7261000" />
-      <workItem from="1566089051666" duration="8567000" />
+      <workItem from="1566089051666" duration="9717000" />
+      <workItem from="1566176677085" duration="1836000" />
+      <workItem from="1566199800334" duration="5833000" />
     </task>
     <servers />
   </component>
