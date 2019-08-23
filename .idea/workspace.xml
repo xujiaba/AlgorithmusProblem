@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/FindUnsortedSubArray_581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueueProblem/MinStack_155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/InorderTraversal_94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/MergeTrees_617.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/NumsTree_96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/PostorderTraversal_145.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/PreOrderTraversal_144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xxxxzr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xxxxzr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/CoinChange_322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/Rob_198.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/MaxUnique_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/MaxUnique_3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +93,9 @@
       <workItem from="1566212190713" duration="3087000" />
       <workItem from="1566221013969" duration="334000" />
       <workItem from="1566270219714" duration="14414000" />
+      <workItem from="1566382898738" duration="1059000" />
+      <workItem from="1566459024341" duration="6770000" />
+      <workItem from="1566523572188" duration="5684000" />
     </task>
     <servers />
   </component>
