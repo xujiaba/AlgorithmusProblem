@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/CoinChange_322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/Rob_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bishi/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/StringZConvert_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/MaxUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +53,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.Main1">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bishi.Main1" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bishi.Main2" />
+      <module name="AlgorithmusProblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSortCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortProblem.QuickSortCode" />
       <module name="AlgorithmusProblem" />
@@ -70,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.QuickSortCode" />
       </list>
@@ -96,6 +124,11 @@
       <workItem from="1566382898738" duration="1059000" />
       <workItem from="1566459024341" duration="6770000" />
       <workItem from="1566523572188" duration="5684000" />
+      <workItem from="1566545665118" duration="2246000" />
+      <workItem from="1566560757892" duration="6289000" />
+      <workItem from="1566782550389" duration="1973000" />
+      <workItem from="1566788758767" duration="8949000" />
+      <workItem from="1566884527515" duration="1796000" />
     </task>
     <servers />
   </component>

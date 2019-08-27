@@ -1,6 +1,7 @@
 package DynamicProblem;
 
 import java.util.Arrays;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class LengthOfLIS_300 {
 
@@ -33,4 +34,7 @@ public class LengthOfLIS_300 {
         }
         return res;
     }
+    ConcurrentHashMap map = new ConcurrentHashMap();
+
+
 }
