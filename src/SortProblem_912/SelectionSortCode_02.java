@@ -1,42 +1,25 @@
-package SortProblem;
+package SortProblem_912;
+
 
 import java.util.Arrays;
 
-public class QuickSortCode {
+public class SelectionSortCode_02 {
 
-    public static void quickSort(int[] arr) {
-        if (arr == null || arr.length < 2) {
-            return;
+    public static int[] sortArray(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return nums;
         }
-        quickSort(arr, 0, arr.length - 1);
-    }
-
-    public static void quickSort(int[] arr, int L, int R) {
-        if (L < R) {  // 重要！！！！！！
-            swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
-            int[] p = partition(arr, L, R);
-            quickSort(arr, L, p[0] - 1);
-            quickSort(arr, p[1] + 1, R);
-        }
-    }
-
-    private static int[] partition(int[] arr, int L, int R) {
-        int less = L - 1;
-        int more = R;
-        while (L < more) {
-            if (arr[L] < arr[R]) {
-                swap(arr, ++less, L++);
-            } else if (arr[L] > arr[R]) {
-                swap(arr, --more, L);   //此时不能加！！！！还需判断当前的数字与arr[R]的大小关系
-            } else {
-                L++;
+        for (int i = 0; i < nums.length; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < nums.length; j++) { // 找到最小那个数的下标
+                minIndex = nums[j] < nums[minIndex] ? j : minIndex;
             }
+            swap(nums, i, minIndex);
         }
-        swap(arr, more, R);
-        return new int[]{less + 1, more};
+        return nums;
     }
 
-    public static void swap(int[] arr, int i, int j) {
+    private static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
@@ -107,7 +90,7 @@ public class QuickSortCode {
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
             int[] arr2 = copyArray(arr1);
-            quickSort(arr1);
+            sortArray(arr1);
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
@@ -120,8 +103,7 @@ public class QuickSortCode {
 
         int[] arr = generateRandomArray(maxSize, maxValue);
         printArray(arr);
-        quickSort(arr);
+        sortArray(arr);
         printArray(arr);
     }
-
 }

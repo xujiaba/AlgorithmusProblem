@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringProblem/StringZConvert_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxArea_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParityII_922.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParity_905.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/ThreeSum_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/BubbleSortCode_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/InsertionSortCode_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/MergeSortCode_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/SelectionSortCode_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/MaxUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/SortProblem/QuickSortCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortProblem/QuickSortCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortProblem_912/QuickSortCode_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASLock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +48,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ArrayProblem" />
+      <recent name="SortProblem_912" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -53,9 +66,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main1" />
+  <component name="RunManager" selected="Application.MergeSortCode_04">
+    <configuration name="BubbleSortCode_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem_912.BubbleSortCode_01" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortProblem_912.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortCode_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem_912.InsertionSortCode_03" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortProblem_912.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bishi.Main" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
@@ -67,19 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main2" />
-      <module name="AlgorithmusProblem" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSortCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortProblem.QuickSortCode" />
+    <configuration name="MergeSortCode_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem_912.MergeSortCode_04" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortProblem.*" />
+          <option name="PATTERN" value="SortProblem_912.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+    <configuration name="SelectionSortCode_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem_912.SelectionSortCode_02" />
       <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortProblem_912.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.QuickSortCode" />
+        <item itemvalue="Application.MergeSortCode_04" />
+        <item itemvalue="Application.InsertionSortCode_03" />
+        <item itemvalue="Application.SelectionSortCode_02" />
+        <item itemvalue="Application.BubbleSortCode_01" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +167,9 @@
       <workItem from="1566560757892" duration="6289000" />
       <workItem from="1566782550389" duration="1973000" />
       <workItem from="1566788758767" duration="8949000" />
-      <workItem from="1566884527515" duration="1796000" />
+      <workItem from="1566884527515" duration="6059000" />
+      <workItem from="1566905254914" duration="1316000" />
+      <workItem from="1566953527266" duration="16923000" />
     </task>
     <servers />
   </component>
