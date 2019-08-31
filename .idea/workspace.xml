@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxArea_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParityII_922.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParity_905.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/ThreeSum_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/BubbleSortCode_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/InsertionSortCode_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/MergeSortCode_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/SelectionSortCode_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/BucketSortCode_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/SortProblem/QuickSortCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortProblem/QuickSortCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortProblem_912/QuickSortCode_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TASLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +38,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ArrayProblem" />
       <recent name="SortProblem_912" />
+      <recent name="ArrayProblem" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortCode_04">
-    <configuration name="BubbleSortCode_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortProblem_912.BubbleSortCode_01" />
+  <component name="RunManager" selected="Application.Main4">
+    <configuration name="BucketSortCode_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortProblem_912.BucketSortCode_07" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bishi.Main4" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.BucketSortCode_07" />
         <item itemvalue="Application.MergeSortCode_04" />
         <item itemvalue="Application.InsertionSortCode_03" />
         <item itemvalue="Application.SelectionSortCode_02" />
-        <item itemvalue="Application.BubbleSortCode_01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +157,13 @@
       <workItem from="1566788758767" duration="8949000" />
       <workItem from="1566884527515" duration="6059000" />
       <workItem from="1566905254914" duration="1316000" />
-      <workItem from="1566953527266" duration="16923000" />
+      <workItem from="1566953527266" duration="19706000" />
+      <workItem from="1566989921214" duration="676000" />
+      <workItem from="1567077545896" duration="2345000" />
+      <workItem from="1567162664104" duration="4884000" />
+      <workItem from="1567211433411" duration="598000" />
+      <workItem from="1567219924502" duration="596000" />
+      <workItem from="1567258141881" duration="1436000" />
     </task>
     <servers />
   </component>

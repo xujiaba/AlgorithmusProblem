@@ -1,50 +1,32 @@
 package SortProblem_912;
 
+
 import java.util.Arrays;
 
-public class HeapSortCode_06 {
+public class BucketSortCode_07 {
 
+    // 桶排序  桶排序实际上是一个概念，桶代表一种容器，非基于比较的排序
+    // 用桶来装数，计数排序，基数排序实际上都是桶排序的一种实现方式
+    //数据只能为非负数
     public static int[] sortArray(int[] nums) {
         if (nums == null || nums.length < 2) {
             return nums;
         }
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
-            heapInsert(nums, i); // 0 - i 把数组变成一个大根堆
+            max = Math.max(max, nums[i]);
         }
-        int heapSize = nums.length;
-        swap(nums, 0, --heapSize); // 将堆顶与堆的最后一个元素进行交换，并且将堆的长度-1；
-        while (heapSize > 0) {
-            heapify(nums, 0, heapSize); // 重新进行堆的调整
-            swap(nums, 0, --heapSize);    // 再次将堆顶与堆的最后一个元素进行交换，并将堆的长度-1
+        int[] bucket = new int[max + 1];
+        for (int i = 0; i < nums.length; i++) {
+            bucket[nums[i]]++;
         }
-
-        return nums;
-    }
-
-    private static void heapInsert(int[] nums, int index) {
-        while (nums[index] > nums[(index - 1) / 2]) {
-            swap(nums, index, (index - 1) / 2);
-            index = (index - 1) / 2;
-        }
-    }
-
-    // 堆结构的调整
-    private static void heapify(int[] nums, int index, int size) {
-        int left = index * 2 + 1; // 左孩子的下标
-        while (left < size) {
-            // 判断左右还在谁是最大的，注意右孩子不能越界
-            int largest = left + 1 < size && nums[left + 1] > nums[left] ? left + 1 : left;
-            //判断子节点与父节点的大小
-            largest = nums[largest] > nums[index] ? largest : index;
-            // 如果父节点比较大，直接返回
-            if (largest == index) {
-                break;
+        int i = 0;
+        for (int j = 0; j < bucket.length; j++) {
+            while (bucket[j]-- > 0) {
+                nums[i++] = j;
             }
-            swap(nums, largest, index);
-            index = largest;
-            left = index * 2 + 1;
         }
-
+        return nums;
     }
 
     private static void swap(int[] arr, int i, int j) {
@@ -62,7 +44,7 @@ public class HeapSortCode_06 {
     public static int[] generateRandomArray(int maxSize, int maxValue) {
         int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
+            arr[i] = (int) ((maxValue + 1) * Math.random());
         }
         return arr;
     }
@@ -113,7 +95,7 @@ public class HeapSortCode_06 {
     public static void main(String[] args) {
         int testTime = 500000;
         int maxSize = 100;
-        int maxValue = 100;
+        int maxValue = 50;
         boolean succeed = true;
         for (int i = 0; i < testTime; i++) {
             int[] arr1 = generateRandomArray(maxSize, maxValue);
