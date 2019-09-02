@@ -46,6 +46,7 @@ public class RemoveNthFromEnd_19 {
             cur = head;
             while (++n != 0) {
                 cur = cur.next;
+
             }
             cur.next = cur.next.next;
         }
