@@ -1,6 +1,7 @@
 package ListProblem;
 
 public class RemoveNthFromEnd_19 {
+    // 删除链表中的倒数第n个节点
     // 双指针方法   在双指针基础上添加一个前驱节点
     public ListNode removeNthFromEnd_1(ListNode head, int n) {
         if (head == null || n < 1)

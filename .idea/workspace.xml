@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortProblem_912/BucketSortCode_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/TheKthNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/FindFirstCommonNode_160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/LoopList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeProblem/TreeOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListProblem/RemoveNthFromEnd_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProblem/RemoveNthFromEnd_19.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,8 @@
       <workItem from="1567162664104" duration="4884000" />
       <workItem from="1567211433411" duration="598000" />
       <workItem from="1567219924502" duration="596000" />
-      <workItem from="1567258141881" duration="1436000" />
+      <workItem from="1567258141881" duration="2079000" />
+      <workItem from="1567386945007" duration="6023000" />
     </task>
     <servers />
   </component>
