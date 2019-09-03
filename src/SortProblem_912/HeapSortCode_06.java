@@ -44,8 +44,10 @@ public class HeapSortCode_06 {
             index = largest;
             left = index * 2 + 1;
         }
-
     }
+
+
+
 
     private static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/TwoSum_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Situation01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Situation02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Situation03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListProblem/Huiwen_234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListProblem/SortList_148.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/BinarySearchTreeKth_230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xxxxzr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xxxxzr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/BinarySearch_704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxLength_325.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SpiralOrderPrint_54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/AddTwoNumbers_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/AddTwoNumbers_445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/AddStrings_415.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ListProblem/RemoveNthFromEnd_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ListProblem/RemoveNthFromEnd_19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/SortProblem_912/HeapSortCode_06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/SortProblem_912/HeapSortCode_06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListProblem/RemoveNthFromEnd_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProblem/RemoveNthFromEnd_19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Situation02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Situation02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortProblem_912/HeapSortCode_06.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +40,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -68,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Situation03">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BucketSortCode_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortProblem_912.BucketSortCode_07" />
       <module name="AlgorithmusProblem" />
@@ -82,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortCode_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortProblem_912.InsertionSortCode_03" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bishi.Main" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortProblem_912.*" />
+          <option name="PATTERN" value="Bishi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Situation03" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.BucketSortCode_07" />
         <item itemvalue="Application.MergeSortCode_04" />
-        <item itemvalue="Application.InsertionSortCode_03" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +171,9 @@
       <workItem from="1567211433411" duration="598000" />
       <workItem from="1567219924502" duration="596000" />
       <workItem from="1567258141881" duration="2079000" />
-      <workItem from="1567386945007" duration="19120000" />
+      <workItem from="1567386945007" duration="20394000" />
+      <workItem from="1567424474750" duration="3522000" />
+      <workItem from="1567473266103" duration="1120000" />
     </task>
     <servers />
   </component>
