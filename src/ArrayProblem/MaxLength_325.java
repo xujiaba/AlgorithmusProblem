@@ -1,6 +1,7 @@
 package ArrayProblem;
 
 import java.util.HashMap;
+import java.util.List;
 
 public class MaxLength_325 {
 
@@ -30,9 +31,7 @@ public class MaxLength_325 {
     }
 
 
-
-
-    //Leetcode 325
+    //LeetCode 325
     //未排序数组中累加和为给定值的最长子数组的长度
     // 利用HashMap 保存sum第一次出现的位置
     public int maxlength(int[] arr, int k) {
@@ -42,7 +41,7 @@ public class MaxLength_325 {
         int sum = 0;
         int len = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(0, -1);   // 重要，否则将不会考虑从0位置开始的子数组
+        map.put(0, -1);     // 重要，否则将不会考虑从0位置开始的子数组
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
             if (map.containsKey(sum - k)) {
@@ -56,4 +55,9 @@ public class MaxLength_325 {
     }
 
 
+
+
 }
+
+
+
