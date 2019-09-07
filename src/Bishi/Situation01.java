@@ -1,5 +1,6 @@
 package Bishi;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -32,4 +33,7 @@ public class Situation01 {
         System.out.println(f[m]);
     }
 
+    public static void DFS(int[] water, int[] cost, int start, int curIndex, int remain, ArrayList<Integer> visited) {
+
+    }
 }
