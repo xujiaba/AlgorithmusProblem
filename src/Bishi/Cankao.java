@@ -28,9 +28,7 @@ public class Cankao {
 //                    nums[i] = nums[tmp];
 //                    nums[tmp] = tmp;
 //                }
-//
 //            }
-//
 //        }
 //        return -1;
 //    }
@@ -3126,7 +3124,7 @@ public class Cankao {
 //        for(int i = 0; i < nums.length;i++)
 //            num ^= nums[i];
 //        int index = 0;
-//        while((num & 1) == 0 && index < 8) {
+//        while((num & 1) == 0 && index < 32) {
 //            num = num >> 1;
 //            index++;
 //        }

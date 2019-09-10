@@ -2,6 +2,7 @@ package StringProblem;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class StringAllPermutation {
     // 字符串全排列，可能有重复的
@@ -11,6 +12,7 @@ public class StringAllPermutation {
             permutationProcess(ans, str.toCharArray(), 0);
             Collections.sort(ans);
         }
+
         return ans;
     }
 
@@ -33,6 +35,39 @@ public class StringAllPermutation {
         char temp = cha[i];
         cha[i] = cha[j];
         cha[j] = temp;
+    }
+
+    public static void process(String s){
+        String[] s1 = s.trim().split(",");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s1.length; i++){
+            sb.append(s1[i]);
+        }
+        String str = sb.toString();
+        ArrayList<String> res = permutation(str);
+        int index = res.indexOf(str);
+        char[] chars = new char[str.length()];
+        if (index == -1) {
+            System.out.println("");
+        } else if (index == res.size() - 1) {
+            chars = res.get(0).toCharArray();
+            System.out.println(res.get(0));
+        } else {
+            chars = res.get(index+1).toCharArray();
+        }
+        for (int i = 0; i <chars.length-1;i++){
+            System.out.print(chars[i]+",");
+        }
+        System.out.print(chars[chars.length-1]);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextLine()){
+            String s = sc.nextLine();
+            process(s);
+        }
+
     }
 
 }

@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListProblem/ListNodePartition_86.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/FindPath_offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeProblem/LeftOrRightSideView_199.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/ListNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Situation01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Situation01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringToInt_offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringToInt_offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindContinuousSequence_offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindContinuousSequence_offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Situation01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Situation01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListProblem/LoopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProblem/LoopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bishi.Main" />
       <module name="AlgorithmusProblem" />
@@ -117,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Situation03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Situation03" />
-      <module name="AlgorithmusProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bishi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringToInt_offer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblem.StringToInt_offer" />
+    <configuration name="StringAllPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProblem.StringAllPermutation" />
       <module name="AlgorithmusProblem" />
       <extension name="coverage">
         <pattern>
@@ -143,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Test" />
-      <module name="AlgorithmusProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bishi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.StringAllPermutation" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.StringToInt_offer" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +178,10 @@
       <workItem from="1567645609431" duration="5498000" />
       <workItem from="1567680810257" duration="4790000" />
       <workItem from="1567766477792" duration="3391000" />
-      <workItem from="1567826163281" duration="4327000" />
+      <workItem from="1567826163281" duration="5852000" />
+      <workItem from="1567842626518" duration="3152000" />
+      <workItem from="1568015461523" duration="6800000" />
+      <workItem from="1568077107842" duration="5843000" />
     </task>
     <servers />
   </component>
@@ -227,16 +200,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Bishi/Main1.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

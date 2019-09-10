@@ -1,6 +1,8 @@
 package ListProblem;
 
 public class LoopList {
+
+    // 找到环形链表环的入口节点
     public ListNode EntryNodeOfLoop(ListNode pHead) {
         if (pHead == null || pHead.next == null) {
             return null;

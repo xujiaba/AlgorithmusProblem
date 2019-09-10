@@ -1,41 +1,68 @@
 package Bishi;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Main1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s1 = sc.nextLine();
-        String s2 = sc.nextLine();
-        s1 = s1.substring(1, s1.length() - 1);
-        s2 = s2.substring(1, s2.length() - 1);
-        String[] c1 = s1.split(",");
-        String[] c2 = s2.split(",");
-        int[] water = new int[c1.length];
-        int[] cost = new int[c2.length];
-        for (int i = 0; i < water.length; i++) {
-            water[i] = Integer.parseInt(c1[i]);
+        while (sc.hasNextLine()) {
+            String s = sc.nextLine();
+            next(s);
         }
-        for (int i = 0; i < cost.length; i++) {
-            cost[i] = Integer.parseInt(c2[i]);
-        }
-        test(water, cost);
+
     }
 
-    public static void test(int[] water, int[] cost) {
-        int totalWater = 0;
-        int curWater = 0;
-        int start = 0;
-        for (int i = 0; i < water.length; i++) {
-            curWater += (water[i] - cost[i]);
-            totalWater += (water[i] - cost[i]);
-            if (curWater < 0) {
-                start = i + 1;
-                curWater = 0;
+    static ArrayList<String> list = new ArrayList<>();
+
+    private static void fullPerm(String str, int i) {
+        if (i == str.length()) {
+            list.add(str);
+            return;
+        } else {
+            for (int j = i; j < str.length(); j++) {
+                str = swap(str, i, j);
+                fullPerm(str, i + 1);
+                str = swap(str, i, j);
             }
+            return;
         }
-        System.out.println(totalWater >= 0 ? start : -1);
     }
+
+    private static String swap(String str, int i, int j) {
+        char[] s = str.toCharArray();
+        char tmp = s[i];
+        s[i] = s[j];
+        s[j] =tmp;
+        return String.valueOf(s);
+
+    }
+
+    private static void next(String s) {
+        String[] s1 = s.trim().split(",");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s1.length; i++){
+            sb.append(s1[i]);
+        }
+        String str = sb.toString();
+        fullPerm(str, 0);
+        Collections.sort(list);
+        int index = list.indexOf(str);
+        char[] chars = new char[str.length()];
+        if (index == -1) {
+            System.out.println("");
+        } else if (index == list.size() - 1) {
+            chars = list.get(0).toCharArray();
+            System.out.println(list.get(0));
+        } else {
+            chars = list.get(index+1).toCharArray();
+        }
+        for (int i = 0; i <chars.length-1;i++){
+            System.out.print(chars[i]+",");
+        }
+        System.out.print(chars[chars.length-1]);
+
+    }
+
 
 }
