@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/LeftOrRightSideView_199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlternatelyPrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/CollectionRain_42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/MaximumSwap_670.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayProblem/SearchMatrix_74.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ListProblem/LoopList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ListProblem/LoopList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListProblem/LoopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProblem/LoopList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AlternatelyPrintArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlternatelyPrintArray" />
+      <module name="AlgorithmusProblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bishi.Main" />
       <module name="AlgorithmusProblem" />
@@ -87,32 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main2" />
-      <module name="AlgorithmusProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bishi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main3" />
-      <module name="AlgorithmusProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bishi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringAllPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringProblem.StringAllPermutation" />
       <module name="AlgorithmusProblem" />
@@ -126,13 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThread" />
+      <module name="AlgorithmusProblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AlternatelyPrintArray" />
+        <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.StringAllPermutation" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +170,11 @@
       <workItem from="1567826163281" duration="5852000" />
       <workItem from="1567842626518" duration="3152000" />
       <workItem from="1568015461523" duration="6800000" />
-      <workItem from="1568077107842" duration="5843000" />
+      <workItem from="1568077107842" duration="6332000" />
+      <workItem from="1568169344641" duration="9156000" />
+      <workItem from="1568255517213" duration="3328000" />
+      <workItem from="1568552231323" duration="1456000" />
+      <workItem from="1568613637645" duration="4532000" />
     </task>
     <servers />
   </component>
