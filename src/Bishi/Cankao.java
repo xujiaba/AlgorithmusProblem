@@ -305,7 +305,7 @@ public class Cankao {
 //        TreeNode root = new TreeNode(preorder[0]);
 //        for(int i = 0; i < inorder.length; i++) {
 //            if(preorder[0] == inorder[i]) {
-//                //pre的0往后数i个是左子树的，copyofrange包含前面的下标，不包含后面的下标
+//                //pre的0往后数i个是左子树的，copyOfRange包含前面的下标，不包含后面的下标
 //                //in的i往前数i个是左子树的。
 //                root.left = buildTree(Arrays.copyOfRange(preorder, 1, i+1), Arrays.copyOfRange(inorder, 0, i));
 //                //注意in是从i+1开始，因为i是现在的根，i+1开始才是右子树
