@@ -2,42 +2,61 @@ package Bishi;
 
 
 import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
+
+
+class Node {
+    public int a, b;
+
+    public Node(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+}
 
 public class Main2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int M = sc.nextInt();
-        if (N > 0 && M > 0) {
-            int[] array = new int[N];
-            for (int i = 1; i <= M; i++) {
-                int l = sc.nextInt();
-                int r = sc.nextInt();
-                if (l < 0 || r > N || l > r) {
-                    continue;
+        int n = sc.nextInt();
+        Node[] nodes = new Node[n];
+        for (int i = 0; i < n; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            nodes[i] = new Node(a, b);
+        }
+        Arrays.sort(nodes, new Comparator<Node>() {
+            @Override
+            public int compare(Node o1, Node o2) {
+                if (o1.b > o2.b) {
+                    return -1;
+                } else if (o1.b < o2.b) {
+                    return 1;
                 } else {
-                    change(array, l, r, i);
+                    if (o1.a < o2.a) {
+                        return -1;
+                    } else if (o1.a > o2.a) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
                 }
             }
-
-            BigInteger sum = new BigInteger("0");
-            for (int i = 0; i < N; i++) {
-                BigInteger cur = new BigInteger(String.valueOf(i * array[i]));
-                sum = sum.add(cur);
-            }
-            System.out.println(sum.mod(new BigInteger(String.valueOf(100000009))));
-        } else {
-            System.out.println(0);
-        }
-
-    }
-
-    public static void change(int[] arr, int left, int right, int num) {
-        if (left <= right) {
-            for (int i = left; i <= right; i++) {
-                arr[i] = num;
+        });
+        int count = n;
+        int sum = 0;
+        int ans = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            count--;
+            sum += nodes[i].a;
+            ans += nodes[i].b;
+            if (count <= sum) {
+                break;
             }
         }
+        System.out.println(ans);
     }
+
+
 }

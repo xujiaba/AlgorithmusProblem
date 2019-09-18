@@ -6,34 +6,37 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int[] arr = new int[N];
-        for (int i = 0; i < N; i++) {
-            arr[i] = sc.nextInt();
-        }
-        Arrays.sort(arr);
-        System.out.println(test(arr, N));
+        int left = sc.nextInt();
+        int right = sc.nextInt();
+        int k = sc.nextInt();
 
+        test(left, right, k);
     }
 
-    public static int test(int[] arr, int len) {
-        if (arr == null || len < 1)
-            return 0;
-        int reLen = 1, div = 1;
-        int maxLen = 0;
-        for (int i = 1; i < len; i++) {
-            if (arr[i] - arr[i - 1] == div) {
-                reLen = reLen + 1;
-            } else {
-                reLen = 2;
+    public static void test(int left, int right, int k) {
+        if (k > right) {
+            System.out.println(0);
+            return;
+        }
+        int num = 0;
+        if (k == 2) {
+            for (int i = left; i <= right; i++) {
+                if (i % k == 0) {
+                    num++;
+                }
             }
-            div = arr[i] - arr[i - 1];
-            if (maxLen <= reLen) {
-                maxLen = reLen;
-
+        } else {
+            for (int i = left; i <= right; i++) {
+                if (i % k == 0) {
+                    for (int j = 2; j < k; j++) {
+                        if (i % j != 0) {
+                            num++;
+                        }
+                    }
+                }
             }
         }
-        return maxLen;
+        System.out.println(num);
     }
 
 
