@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bishi/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/BuildTree_offer_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/Find2thRepeatNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/FindMinimumInRotatedSortedArray_153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/FindMinimumInRotatedSortedArray_154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/InOrderAndPostOrderBuildTree_106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/MergeKSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/MergeKSortedLists_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/SearchInRotatedSortedArray_33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/SearchInRotatedSortedArray_81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Other/Chain_Meituan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUCache_146.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/LRUCache_146.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ByteDance" />
       <recent name="Bishi" />
       <recent name="SortProblem_912" />
       <recent name="ArrayProblem" />
@@ -176,7 +178,10 @@
       <workItem from="1568552231323" duration="1456000" />
       <workItem from="1568613637645" duration="5224000" />
       <workItem from="1568630665908" duration="9896000" />
-      <workItem from="1568702511317" duration="6678000" />
+      <workItem from="1568702511317" duration="7126000" />
+      <workItem from="1568725858362" duration="280000" />
+      <workItem from="1568726517885" duration="660000" />
+      <workItem from="1568769727814" duration="21381000" />
     </task>
     <servers />
   </component>
