@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/JudgeSubtree_572.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/DeleteNode_237.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/FindMaxDistanceInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/PrintTreeFromTopToBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListProblem/RemoveElements_203.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DoubleList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/LRUCache_146.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/LongestPalindrome_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/LongestPalindrome_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +181,9 @@
       <workItem from="1568702511317" duration="7126000" />
       <workItem from="1568725858362" duration="280000" />
       <workItem from="1568726517885" duration="660000" />
-      <workItem from="1568769727814" duration="29259000" />
+      <workItem from="1568769727814" duration="29735000" />
+      <workItem from="1568856791673" duration="7206000" />
+      <workItem from="1568878736980" duration="713000" />
     </task>
     <servers />
   </component>
