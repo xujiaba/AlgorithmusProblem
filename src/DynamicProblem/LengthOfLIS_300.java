@@ -34,7 +34,4 @@ public class LengthOfLIS_300 {
         }
         return res;
     }
-    ConcurrentHashMap map = new ConcurrentHashMap();
-
-
 }

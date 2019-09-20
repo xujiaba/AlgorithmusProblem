@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/GetPosArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/BuildHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/GetIntersectionNode_160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/IsPalindromeList_234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/ReverseBetween_92.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/ReverseKGroup_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/ReverseList_206.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteDance/MergeKSortedArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/MergeKSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProblem/Rob_198.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProblem/Rob_198.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AlternatelyPrintArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlternatelyPrintArray" />
       <module name="AlgorithmusProblem" />
@@ -117,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AlternatelyPrintArray" />
       </list>
     </recent_temporary>
@@ -183,7 +194,8 @@
       <workItem from="1568856791673" duration="7206000" />
       <workItem from="1568878736980" duration="713000" />
       <workItem from="1568884392587" duration="805000" />
-      <workItem from="1568942117778" duration="4725000" />
+      <workItem from="1568942117778" duration="14260000" />
+      <workItem from="1568989064725" duration="2569000" />
     </task>
     <servers />
   </component>

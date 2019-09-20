@@ -7,7 +7,6 @@ public class Rob_198 {
     //给定一个代表每个房屋存放金额的非负整数数组，计算你在不触动警报装置的情况下，能够偷窃到的最高金额。
     //
 
-
     //暴力递归法
     public int rob1(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -15,7 +14,6 @@ public class Rob_198 {
         }
         return process(nums, 0);
     }
-
     private int process(int[] nums, int i) {
         if (i >= nums.length) {
             return 0;

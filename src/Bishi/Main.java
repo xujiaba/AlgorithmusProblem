@@ -5,12 +5,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int left = sc.nextInt();
-        int right = sc.nextInt();
-        int k = sc.nextInt();
+//        Scanner sc = new Scanner(System.in);
+//        int left = sc.nextInt();
+//        int right = sc.nextInt();
+//        int k = sc.nextInt();
+//
+//        test(left, right, k);
 
-        test(left, right, k);
+        System.out.println((int)Math.sqrt(2));
     }
 
     public static void test(int left, int right, int k) {
