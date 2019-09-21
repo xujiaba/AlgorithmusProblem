@@ -11,8 +11,12 @@ public class Main {
 //        int k = sc.nextInt();
 //
 //        test(left, right, k);
-
-        System.out.println((int)Math.sqrt(2));
+        String s = "   I   LOVE    YOU .    ";
+        String[] strings = s.trim().split(" ");
+        for (String string : strings) {
+            System.out.println(string + "   " + string.length());
+        }
+//        System.out.println((int)Math.sqrt(2));
     }
 
     public static void test(int left, int right, int k) {
