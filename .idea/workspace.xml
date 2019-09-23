@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/HexAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/GetFirstKIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/KthLargestElementInAnArray_215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/LongestDupSubstring_1044.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/PalindromicSubstrings_647.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/SameProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/WidthOfBinaryTree_662.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/LengthOfLIS_300.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/LengthOfLIS_300.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/Rob_198.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/Rob_198.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +189,10 @@
       <workItem from="1568884392587" duration="805000" />
       <workItem from="1568942117778" duration="14260000" />
       <workItem from="1568989064725" duration="3580000" />
-      <workItem from="1569029186735" duration="3366000" />
+      <workItem from="1569029186735" duration="4242000" />
+      <workItem from="1569065087307" duration="1743000" />
+      <workItem from="1569131844559" duration="4955000" />
+      <workItem from="1569218000464" duration="11981000" />
     </task>
     <servers />
   </component>
