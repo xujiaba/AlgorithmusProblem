@@ -112,6 +112,38 @@ public class MergeKSortedLists_23 {
         return result;
     }
 
+
+    /**
+     * 方法 4：分治 6 ms
+     * 想法 & 算法
+     * 这个方法沿用了上面的解法，但是进行了较大的优化。我们不需要对大部分节点重复遍历多次。
+     * * 将 k个链表配对并将同一对中的链表合并。
+     * * 第一轮合并以后，k 个链表被合并成了2/k个链表，平均长度为 2N/k ，然后是4/k个链表，8/k个链表等等。
+     * * 重复这一过程，直到我们得到了最终的有序链表。
+     * * 因此，我们在每一次配对合并的过程中都会遍历几乎全部 N 个节点，并重复这一过程 log K 次。
+     * <p>
+     * 复杂度分析
+     * * 时间复杂度： O(Nlogk) ，其中 k 是链表的数目。
+     * * * 我们可以在 O(n) 的时间内合并两个有序链表，其中 n 是两个链表中的总节点数。
+     * * * 将所有的合并进程加起来，我们可以得到：O(∑i=1 logk N) = O (Nlogk) 。
+     * * 空间复杂度：O(1)
+     * * * 我们可以用 O(1) 的空间实现两个有序链表的合并。
+     */
+
+    public ListNode mergeKLists4(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        int len = lists.length;
+        int interval = 1;
+        while (interval < len) {
+            for (int i = 0; i + interval < len; i += 2 * interval) {
+                lists[i] = mergeTwoLists(lists[i], lists[i + interval]);
+            }
+            interval *= 2;
+        }
+        return len != 0 ? lists[0] : null;
+    }
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null || l2 == null) {
             return l1 != null ? l1 : l2;
@@ -130,38 +162,6 @@ public class MergeKSortedLists_23 {
         }
         cur.next = l1 == null ? l2 : l1;
         return dummy.next;
-    }
-
-    /**
-     * 方法 4：分治 6 ms
-     * 想法 & 算法
-     * 这个方法沿用了上面的解法，但是进行了较大的优化。我们不需要对大部分节点重复遍历多次。
-     * * 将 k个链表配对并将同一对中的链表合并。
-     * * 第一轮合并以后，k 个链表被合并成了2/k个链表，平均长度为 2N/k ，然后是4/k个链表，8/k个链表等等。
-     * * 重复这一过程，直到我们得到了最终的有序链表。
-     * * 因此，我们在每一次配对合并的过程中都会遍历几乎全部 N 个节点，并重复这一过程 log K 次。
-     * <p>
-     * 复杂度分析
-     * * 时间复杂度： O(Nlogk) ，其中 k 是链表的数目。
-     * * * 我们可以在 O(n) 的时间内合并两个有序链表，其中 n 是两个链表中的总节点数。
-     * * * 将所有的合并进程加起来，我们可以得到：O(∑i=1 logk N) = O (Nlogk) 。
-     * * 空间复杂度：O(1)
-     * * * 我们可以用 O(1)O(1) 的空间实现两个有序链表的合并。
-     */
-
-    public ListNode mergeKLists4(ListNode[] lists) {
-        if (lists == null || lists.length == 0) {
-            return null;
-        }
-        int len = lists.length;
-        int interval = 1;
-        while (interval < len) {
-            for (int i = 0; i + interval < len; i += 2 * interval) {
-                lists[i] = mergeTwoLists(lists[i], lists[i + interval]);
-            }
-            interval *= 2;
-        }
-        return len != 0 ? lists[0] : null;
     }
 
 }

@@ -11,14 +11,12 @@ public class BuildHeap {
         }
         return arr;
     }
-
     private void heapInsert(int[] arr, int index) {
         while (arr[index] > arr[(index - 1) / 2]) {
             swap(arr, index, (index - 1) / 2);
             index = (index - 1) / 2;
         }
     }
-
     private void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];

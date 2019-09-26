@@ -55,8 +55,7 @@ public class LongestDupSubstring_1044 {
         int start = search(left - 1, a, modulus, n, nums);
         return start != -1 ? S.substring(start, start + left - 1) : "";
     }
-
-
+    //最长重复子串：给出一个字符串S，返回其最长重复子串
     // 方法2 后缀数组法
     //后缀数组法：将字符串所有的后缀字符串存放在一个数组里，然后进行排序，遍历数组，寻找相邻两个字符串的最长公共前缀子串即为字符串的最长重复子串。
     //以banana为例，其后缀字符串的数组为[“banana”, “anana”, “nana”, “ana”, “na”, “a”]，

@@ -1,8 +1,10 @@
-package TreeProblem;
+package ByteDance;
+
+import TreeProblem.TreeNode;
 
 import java.util.Arrays;
 
-public class BuildTree_offer_105 {
+public class PreorderAndInorderBuildTree_offer_105 {
     // LeetCode 105
     //输入一棵二叉树前序遍历和中序遍历的结果，请重建该二叉树。
     //注意:

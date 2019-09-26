@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/GetFirstKIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/KthLargestElementInAnArray_215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/LongestDupSubstring_1044.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/PalindromicSubstrings_647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/SameProbability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/WidthOfBinaryTree_662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/IPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/LeftOrRightSideView_199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/LongerSubWithoutDup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/MaxProduct_152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/MaxSubSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/NextNumPermutation_31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/NumberPermutationChongfu_47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/NumberPermutation_46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/OnceThreeTimesInArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/PreorderAndInorderBuildTree_offer_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/SortColors_75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/TreeLevelOrder_102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListRemoveItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/Bishi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/BuildHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/BuildHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMaxDistanceInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMaxDistanceInTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMinimumInRotatedSortedArray_153.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMinimumInRotatedSortedArray_153.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/GetIntersectionNode_160.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/GetIntersectionNode_160.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/InOrderAndPostOrderBuildTree_106.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/InOrderAndPostOrderBuildTree_106.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/IsPalindromeList_234.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/IsPalindromeList_234.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/MergeKSortedLists_23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/MergeKSortedLists_23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseBetween_92.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseBetween_92.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseList_206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseList_206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/StringAllPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TreeProblem/BuildTree_offer_105.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Cankao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Cankao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bishi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/BuildHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/BuildHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/FindMaxDistanceInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/FindMaxDistanceInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/FindMinimumInRotatedSortedArray_153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/FindMinimumInRotatedSortedArray_153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/GetFirstKIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/GetFirstKIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/GetIntersectionNode_160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/GetIntersectionNode_160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/InOrderAndPostOrderBuildTree_106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/InOrderAndPostOrderBuildTree_106.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/IsPalindromeList_234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/IsPalindromeList_234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/LongestDupSubstring_1044.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/LongestDupSubstring_1044.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/MergeKSortedLists_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/MergeKSortedLists_23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/ReverseBetween_92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/ReverseBetween_92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/ReverseList_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/ReverseList_206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/StringAllPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeProblem/BuildTree_offer_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeProblem/PreorderAndInorderBuildTree_offer_105.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +94,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="AlternatelyPrintArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlternatelyPrintArray" />
+    <configuration name="IPUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteDance.IPUtil" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ByteDance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListRemoveItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListRemoveItem" />
       <module name="AlgorithmusProblem" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,26 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bishi.Main5" />
-      <module name="AlgorithmusProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bishi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ListRemoveItem" />
+        <item itemvalue="Application.IPUtil" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.AlternatelyPrintArray" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +226,10 @@
       <workItem from="1569029186735" duration="4242000" />
       <workItem from="1569065087307" duration="1743000" />
       <workItem from="1569131844559" duration="4955000" />
-      <workItem from="1569218000464" duration="11981000" />
+      <workItem from="1569218000464" duration="12195000" />
+      <workItem from="1569284016361" duration="16198000" />
+      <workItem from="1569373754913" duration="16597000" />
+      <workItem from="1569459771579" duration="2013000" />
     </task>
     <servers />
   </component>

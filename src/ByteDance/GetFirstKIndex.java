@@ -1,7 +1,8 @@
 package ByteDance;
 
 public class GetFirstKIndex {
-    //数字在排序数组中第一次出现的位置，如果没有找到返回比此数小的一个数的位置
+    //数字在排序数组中第一次出现的位置
+    //输出一个有序数组中一个数字的第一次出现的位置或者返回-1.
     public int getFirstKIndex(int[] nums, int k) {
         int start = 0;
         int end = nums.length - 1;

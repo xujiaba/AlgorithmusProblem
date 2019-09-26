@@ -3,12 +3,9 @@ package ByteDance;
 import ListProblem.ListNode;
 
 public class GetIntersectionNode_160 {
-
     // 160 相交链表
     // 两个链表的公共点
     //编写一个程序，找到两个单链表相交的起始节点。
-
-
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null)
             return null;

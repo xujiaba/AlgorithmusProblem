@@ -1952,9 +1952,10 @@ public class Cankao {
 //        }
 //        if(times*2 > nums.length) {
 //            return cand;
+//        } else{
+//          return 0;
 //        }
-//        else
-//            return 0;
+//
 //    }
 //}
 //
