@@ -1,4 +1,4 @@
-package ByteDance;
+package ArrayProblem;
 
 public class FindMedianSortedArrays_4 {
 

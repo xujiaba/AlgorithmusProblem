@@ -1,4 +1,4 @@
-package ByteDance;
+package ArrayProblem;
 
 public class OnceThreeTimesInArr {
     //在一个数组中除了一个数字只出现一次之外，其他数字都出现了三次。

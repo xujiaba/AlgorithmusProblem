@@ -1,4 +1,4 @@
-package ByteDance;
+package ArrayProblem;
 
 import java.util.*;
 

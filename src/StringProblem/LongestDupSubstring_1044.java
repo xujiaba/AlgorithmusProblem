@@ -1,4 +1,4 @@
-package ByteDance;
+package StringProblem;
 
 import java.util.Arrays;
 import java.util.HashSet;

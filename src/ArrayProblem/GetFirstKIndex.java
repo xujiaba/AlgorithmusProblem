@@ -1,4 +1,4 @@
-package ByteDance;
+package ArrayProblem;
 
 public class GetFirstKIndex {
     //数字在排序数组中第一次出现的位置

@@ -1,4 +1,4 @@
-package ByteDance;
+package TreeProblem;
 
 import TreeProblem.TreeNode;
 

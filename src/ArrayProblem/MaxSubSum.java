@@ -1,4 +1,4 @@
-package ByteDance;
+package ArrayProblem;
 
 public class MaxSubSum {
     //最大连续子序列和

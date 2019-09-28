@@ -1,4 +1,4 @@
-package ByteDance;
+package ListProblem;
 
 import ListProblem.ListNode;
 
