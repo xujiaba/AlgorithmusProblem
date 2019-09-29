@@ -2,7 +2,6 @@ package ArrayProblem;
 
 public class MaxSubSum {
     //最大连续子序列和
-
     public int maxSubSum(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
         int tmpSum = 0;

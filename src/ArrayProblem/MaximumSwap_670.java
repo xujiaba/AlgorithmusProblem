@@ -2,7 +2,7 @@ package ArrayProblem;
 
 public class MaximumSwap_670 {
 
-    // LeetCode 670
+    // LeetCode 670 最大交换
     //https://leetcode-cn.com/problems/maximum-swap/
     // 头条真题
     // 给定一个非负整数，你至多可以交换一次数字中的任意两位。返回你能得到的最大值。
@@ -12,10 +12,8 @@ public class MaximumSwap_670 {
     //解释: 交换数字2和数字7。
     //给定数字的范围是 [0, 10^8]
 
-
-    //我们将计算 \text{last[d] = i}last[d] = i，最后一次出现的数字 \text{d}d（如果存在）的索引 \text ii。
+    //我们将计算 last[d] = i，最后一次出现的数字 d（如果存在）的索引 i。
     //然后，从左到右扫描数字时，如果将来有较大的数字，我们将用最大的数字交换；如果有多个这样的数字，我们将用最开始遇到的数字交换。
-
 
     public int maximumSwap(int num) {
         char[] arr = Integer.toString(num).toCharArray();

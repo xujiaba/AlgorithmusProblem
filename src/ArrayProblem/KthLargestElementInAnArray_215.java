@@ -37,7 +37,6 @@ public class KthLargestElementInAnArray_215 {
         return quickSelect(nums, p[1] + 1, right, kSmall);
     }
 
-
     public int[] partition(int[] nums, int L, int R) {
         int less = L - 1;
         int more = R;

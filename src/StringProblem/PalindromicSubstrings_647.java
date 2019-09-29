@@ -13,12 +13,11 @@ public class PalindromicSubstrings_647 {
     //输入: "aaa"
     //输出: 6
     //说明: 6个回文子串: "a", "a", "a", "aa", "aa", "aaa".
-    //
     //来源：力扣（LeetCode）
     //链接：https://leetcode-cn.com/problems/palindromic-substrings
     //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-
+    // 中心扩展法
     public int countSubstrings(String s) {
         int res = 0;
         for (int i = 0; i < s.length(); i++) {
