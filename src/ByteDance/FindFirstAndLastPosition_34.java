@@ -1,17 +1,13 @@
 package ByteDance;
 
 public class FindFirstAndLastPosition_34 {
-
-
     // 在排序数组中查找元素的第一个和最后一个位置
-
     // 暴力法
     // 首先，我们对 nums 数组从左到右做线性遍历，当遇到 target 时中止。
     // 如果我们没有中止过，那么 target 不存在，我们可以返回“错误代码” [-1, -1] 。
     // 如果我们找到了有效的左端点坐标，我们可以坐第二遍线性扫描，但这次从右往左进行。
     // 这一次，第一个遇到的 target 将是最右边的一个（因为最左边的一个存在，所以一定会有一个最右边的 target）。
     // 我们接下来只需要返回这两个坐标。
-    //
 
     public int[] searchRange1(int[] nums, int target) {
         int[] targetRange = {-1, -1};

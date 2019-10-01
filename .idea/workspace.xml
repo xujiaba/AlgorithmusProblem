@@ -2,39 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51aada88-9342-4c8b-875a-476813935cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/CombinationSum2_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/CombinationSum_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/FindFirstAndLastPosition_34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/GroupAnagrams_49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/IsAnagram_242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDance/SearchMatrix_74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProblem/MinPathSum_64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/CountSearchTree_96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/ISMirrorTree_101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/LargestValues_515.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeProblem/MirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/BlockingQueueConsumerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/CopyRandomList_138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/KthSmallestInMatrix_378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/ListNodePartition_86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/ProducerConsumerWithWaitNofity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/Storage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDance/Storage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblem/StringCompress_443.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/BinarySearch_704.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/BinarySearch_704.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/CanThreePartsEqualsSum_1013.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/CanThreePartsEqualsSum_1013.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/CollectionRain_42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/CollectionRain_42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindMaxRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindMaxRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/KthLargestElementInAnArray_215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/KthLargestElementInAnArray_215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/BinarySearch_704.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/BinarySearch_704.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/CollectionRain_42.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/CollectionRain_42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/FindMaxRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/FindMaxRight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaxArea_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaxArea_11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaxLength_325.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaxLength_325.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaximumSwap_670.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/MaximumSwap_670.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/SortArrayByParityII_922.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/SortArrayByParityII_922.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/SortArrayByParity_905.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/SortArrayByParity_905.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/TwoSum_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ArrayProblem/TwoSum_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/BuildHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/DeleteNode_237.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/Find2thRepeatNum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/Find2thRepeatNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMaxDistanceInTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMedianSortedArrays_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMinimumInRotatedSortedArray_153.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/FindMinimumInRotatedSortedArray_154.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/GetFirstKIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/GetIntersectionNode_160.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/GetPosArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/InOrderAndPostOrderBuildTree_106.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/InterSectionTwoArrays_349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/IsPalindromeList_234.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/JudgeSubtree_572.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/KthLargestElementInAnArray_215.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/LongerSubWithoutDup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/LongestDupSubstring_1044.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/MaxSubSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/MergeKSortedLists_23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/NextNumPermutation_31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/NumberPermutationChongfu_47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/NumberPermutation_46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/OnceThreeTimesInArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/PalindromicSubstrings_647.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/PrintTreeFromTopToBottom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseBetween_92.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseKGroup_25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/ReverseList_206.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/SameProbability.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/SameProbability.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/SearchInRotatedSortedArray_33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/SearchInRotatedSortedArray_81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/SortColors_75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/ByteDance/WidthOfBinaryTree_662.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/LengthOfLIS_300.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/DynamicProblem/LengthOfLIS_300.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/DecodeString_394.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/DecodeString_394.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/LongestPalindrome_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/StringProblem/LongestPalindrome_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TreeProblem/MergeTrees_617.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TreeProblem/MergeTrees_617.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmusProblem/TreeProblem/NumsTree_96.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindContinuousSequence_offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SumEqualsS_offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindMaxRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindFirstBigRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindMedianSortedArrays_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindMedianSortedArrays_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindMinimumInRotatedSortedArray_153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindMinimumInRotatedSortedArray_153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindMinimumInRotatedSortedArray_154.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindMinInRotatedSortedArrayChongfu_154.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindNumberWithSum_offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindTwoNumSumEqualsS_offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/FindUnsortedSubArray_581.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/FindUnsortedSubArray_581.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/InterSectionTwoArrays_349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/InterSectionTwoArraysJiaoji_349.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/KthLargestElementInAnArray_215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/KthLargestInSortedArray_215.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblem/MaxArea_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxArea_11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblem/MaxLength_325.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxLength_325.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/MaxSubSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/MaxSubSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblem/MaximumSwap_670.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/MaximumSwap_670.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParityII_922.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParityII_922.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParity_905.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SortArrayByParity_905.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/MoreThanHalfNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/MoreThanHalfNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/NextNumPermutation_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/NextNumPermutation_31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/SearchInRotatedSortedArray_33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SearchTargetInRotatedSortedArray_33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/SearchInRotatedSortedArray_81.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SearchTargetInRotatedSortedArrayChongfu_81.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayProblem/SearchMatrix_74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SearchMatrix_74.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayProblem/TwoSum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/TwoSum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteDance/FindMaxDistanceInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeProblem/FindMaxDistanceInTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ByteDance/SortColors_75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayProblem/SortColors_75.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProblem/LengthOfLIS_300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/DecodeString_394.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/DecodeString_394.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/CombinationSum2_40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/CombinationSum2_40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/CombinationSum_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/CombinationSum_39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/FindFirstAndLastPosition_34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/FindFirstAndLastPosition_34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/GroupAnagrams_49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/GroupAnagrams_49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/HexAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/HexAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ByteDance/IsAnagram_242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/IsAnagram_242.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListRemoveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ByteDance/ListRemoveItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblem/LongestDupSubstring_1044.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/LongestDupSubstring_1044.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/LongestPalindrome_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblem/PalindromicSubstrings_647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblem/PalindromicSubstrings_647.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeProblem/MergeTrees_617.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeProblem/MergeTrees_617.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeProblem/NumsTree_96.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMedianSortedArrays_4">
+  <component name="RunManager" selected="Application.ProducerConsumerWithWaitNofity">
     <configuration name="FindMedianSortedArrays_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayProblem.FindMedianSortedArrays_4" />
       <module name="AlgorithmusProblem" />
@@ -95,13 +146,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListRemoveItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListRemoveItem" />
-      <module name="AlgorithmusProblem" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerConsumerWithWaitNofity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteDance.ProducerConsumerWithWaitNofity" />
+      <module name="AlgorithmusProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ByteDance.ListNode" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ByteDance.ThreadRun" />
       <module name="AlgorithmusProblem" />
@@ -147,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerWithWaitNofity" />
         <item itemvalue="Application.FindMedianSortedArrays_4" />
         <item itemvalue="Application.ThreadRun" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PokersMove_ByteDance" />
-        <item itemvalue="Application.ListRemoveItem" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +283,9 @@
       <workItem from="1569632780717" duration="2969000" />
       <workItem from="1569654806395" duration="3379000" />
       <workItem from="1569682425392" duration="820000" />
-      <workItem from="1569724751087" duration="11045000" />
+      <workItem from="1569724751087" duration="17044000" />
+      <workItem from="1569766204019" duration="25000" />
+      <workItem from="1569802304272" duration="8198000" />
     </task>
     <servers />
   </component>

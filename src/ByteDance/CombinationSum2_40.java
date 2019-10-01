@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CombinationSum2_40 {
 
-    // 组合总和
+    // 组合总和   找出给定数组里所有和为target两个数的组合，数字不能重用
     // 给定一个数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
     //candidates 中的每个数字在每个组合中只能使用一次。
     //说明：
@@ -28,7 +28,6 @@ public class CombinationSum2_40 {
     //  [1,2,2],
     //  [5]
     //]
-    //
     //来源：力扣（LeetCode）
     //链接：https://leetcode-cn.com/problems/combination-sum-ii
     //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。

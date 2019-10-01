@@ -2,9 +2,8 @@ package ArrayProblem;
 
 public class MaximumSwap_670 {
 
-    // LeetCode 670 最大交换
+    // LeetCode 670 最大交换  头条真题
     //https://leetcode-cn.com/problems/maximum-swap/
-    // 头条真题
     // 给定一个非负整数，你至多可以交换一次数字中的任意两位。返回你能得到的最大值。
     //示例 1 :
     //输入: 2736

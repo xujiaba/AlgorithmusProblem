@@ -19,7 +19,6 @@ public class GroupAnagrams_49 {
     //链接：https://leetcode-cn.com/problems/group-anagrams
     //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-
     // 维护一个映射 ans : {String -> List}，其中每个键 K 是一个排序字符串，
     // 每个值是初始输入的字符串列表，排序后等于K。
     //在 Java 中，我们将键存储为字符串，例如，code。

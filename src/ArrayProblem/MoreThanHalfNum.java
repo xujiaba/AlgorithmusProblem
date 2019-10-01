@@ -13,7 +13,6 @@ public class MoreThanHalfNum {
     //输入：[1,2,1,1,3]
     //输出：1
 
-
     // 方法1 使用partition
     public int moreThanHalfNum_Solution(int[] nums) {
         int left = 0;
